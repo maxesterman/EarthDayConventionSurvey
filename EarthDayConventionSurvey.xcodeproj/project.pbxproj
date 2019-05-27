@@ -1,0 +1,568 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E597245A1E9C077000E59FD7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E59724591E9C077000E59FD7 /* AppDelegate.swift */; };
+		E597245C1E9C077000E59FD7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E597245B1E9C077000E59FD7 /* ViewController.swift */; };
+		E597245F1E9C077000E59FD7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E597245D1E9C077000E59FD7 /* Main.storyboard */; };
+		E59724621E9C077000E59FD7 /* EarthDayConventionSurvey.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E59724601E9C077000E59FD7 /* EarthDayConventionSurvey.xcdatamodeld */; };
+		E59724641E9C077000E59FD7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E59724631E9C077000E59FD7 /* Assets.xcassets */; };
+		E59724671E9C077000E59FD7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E59724651E9C077000E59FD7 /* LaunchScreen.storyboard */; };
+		E59724721E9C077000E59FD7 /* EarthDayConventionSurveyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E59724711E9C077000E59FD7 /* EarthDayConventionSurveyTests.swift */; };
+		E597247D1E9C077000E59FD7 /* EarthDayConventionSurveyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E597247C1E9C077000E59FD7 /* EarthDayConventionSurveyUITests.swift */; };
+		E597248B1E9CB85E00E59FD7 /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E597248A1E9CB85E00E59FD7 /* StartViewController.swift */; };
+		E597248E1E9D325E00E59FD7 /* Viewer+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = E597248C1E9D325E00E59FD7 /* Viewer+CoreDataProperties.swift */; };
+		E597248F1E9D325E00E59FD7 /* Viewer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E597248D1E9D325E00E59FD7 /* Viewer.swift */; };
+		E59724911EA3AE1D00E59FD7 /* ThankYouViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E59724901EA3AE1D00E59FD7 /* ThankYouViewController.swift */; };
+		E59724931EA3B6B900E59FD7 /* DownloadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E59724921EA3B6B900E59FD7 /* DownloadViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E597246E1E9C077000E59FD7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E597244E1E9C077000E59FD7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E59724551E9C077000E59FD7;
+			remoteInfo = EarthDayConventionSurvey;
+		};
+		E59724791E9C077000E59FD7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E597244E1E9C077000E59FD7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E59724551E9C077000E59FD7;
+			remoteInfo = EarthDayConventionSurvey;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E59724561E9C077000E59FD7 /* EarthDayConventionSurvey.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EarthDayConventionSurvey.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E59724591E9C077000E59FD7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E597245B1E9C077000E59FD7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E597245E1E9C077000E59FD7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E59724611E9C077000E59FD7 /* EarthDayConventionSurvey.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = EarthDayConventionSurvey.xcdatamodel; sourceTree = "<group>"; };
+		E59724631E9C077000E59FD7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E59724661E9C077000E59FD7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E59724681E9C077000E59FD7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E597246D1E9C077000E59FD7 /* EarthDayConventionSurveyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EarthDayConventionSurveyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E59724711E9C077000E59FD7 /* EarthDayConventionSurveyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EarthDayConventionSurveyTests.swift; sourceTree = "<group>"; };
+		E59724731E9C077000E59FD7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E59724781E9C077000E59FD7 /* EarthDayConventionSurveyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EarthDayConventionSurveyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E597247C1E9C077000E59FD7 /* EarthDayConventionSurveyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EarthDayConventionSurveyUITests.swift; sourceTree = "<group>"; };
+		E597247E1E9C077000E59FD7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E597248A1E9CB85E00E59FD7 /* StartViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
+		E597248C1E9D325E00E59FD7 /* Viewer+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Viewer+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		E597248D1E9D325E00E59FD7 /* Viewer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Viewer.swift; sourceTree = "<group>"; };
+		E59724901EA3AE1D00E59FD7 /* ThankYouViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThankYouViewController.swift; sourceTree = "<group>"; };
+		E59724921EA3B6B900E59FD7 /* DownloadViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DownloadViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E59724531E9C077000E59FD7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E597246A1E9C077000E59FD7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E59724751E9C077000E59FD7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E597244D1E9C077000E59FD7 = {
+			isa = PBXGroup;
+			children = (
+				E597248C1E9D325E00E59FD7 /* Viewer+CoreDataProperties.swift */,
+				E597248D1E9D325E00E59FD7 /* Viewer.swift */,
+				E59724581E9C077000E59FD7 /* EarthDayConventionSurvey */,
+				E59724701E9C077000E59FD7 /* EarthDayConventionSurveyTests */,
+				E597247B1E9C077000E59FD7 /* EarthDayConventionSurveyUITests */,
+				E59724571E9C077000E59FD7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E59724571E9C077000E59FD7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E59724561E9C077000E59FD7 /* EarthDayConventionSurvey.app */,
+				E597246D1E9C077000E59FD7 /* EarthDayConventionSurveyTests.xctest */,
+				E59724781E9C077000E59FD7 /* EarthDayConventionSurveyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E59724581E9C077000E59FD7 /* EarthDayConventionSurvey */ = {
+			isa = PBXGroup;
+			children = (
+				E59724591E9C077000E59FD7 /* AppDelegate.swift */,
+				E597245B1E9C077000E59FD7 /* ViewController.swift */,
+				E59724921EA3B6B900E59FD7 /* DownloadViewController.swift */,
+				E597245D1E9C077000E59FD7 /* Main.storyboard */,
+				E59724631E9C077000E59FD7 /* Assets.xcassets */,
+				E59724651E9C077000E59FD7 /* LaunchScreen.storyboard */,
+				E59724681E9C077000E59FD7 /* Info.plist */,
+				E59724601E9C077000E59FD7 /* EarthDayConventionSurvey.xcdatamodeld */,
+				E597248A1E9CB85E00E59FD7 /* StartViewController.swift */,
+				E59724901EA3AE1D00E59FD7 /* ThankYouViewController.swift */,
+			);
+			path = EarthDayConventionSurvey;
+			sourceTree = "<group>";
+		};
+		E59724701E9C077000E59FD7 /* EarthDayConventionSurveyTests */ = {
+			isa = PBXGroup;
+			children = (
+				E59724711E9C077000E59FD7 /* EarthDayConventionSurveyTests.swift */,
+				E59724731E9C077000E59FD7 /* Info.plist */,
+			);
+			path = EarthDayConventionSurveyTests;
+			sourceTree = "<group>";
+		};
+		E597247B1E9C077000E59FD7 /* EarthDayConventionSurveyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E597247C1E9C077000E59FD7 /* EarthDayConventionSurveyUITests.swift */,
+				E597247E1E9C077000E59FD7 /* Info.plist */,
+			);
+			path = EarthDayConventionSurveyUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E59724551E9C077000E59FD7 /* EarthDayConventionSurvey */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E59724811E9C077000E59FD7 /* Build configuration list for PBXNativeTarget "EarthDayConventionSurvey" */;
+			buildPhases = (
+				E59724521E9C077000E59FD7 /* Sources */,
+				E59724531E9C077000E59FD7 /* Frameworks */,
+				E59724541E9C077000E59FD7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EarthDayConventionSurvey;
+			productName = EarthDayConventionSurvey;
+			productReference = E59724561E9C077000E59FD7 /* EarthDayConventionSurvey.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E597246C1E9C077000E59FD7 /* EarthDayConventionSurveyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E59724841E9C077000E59FD7 /* Build configuration list for PBXNativeTarget "EarthDayConventionSurveyTests" */;
+			buildPhases = (
+				E59724691E9C077000E59FD7 /* Sources */,
+				E597246A1E9C077000E59FD7 /* Frameworks */,
+				E597246B1E9C077000E59FD7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E597246F1E9C077000E59FD7 /* PBXTargetDependency */,
+			);
+			name = EarthDayConventionSurveyTests;
+			productName = EarthDayConventionSurveyTests;
+			productReference = E597246D1E9C077000E59FD7 /* EarthDayConventionSurveyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E59724771E9C077000E59FD7 /* EarthDayConventionSurveyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E59724871E9C077000E59FD7 /* Build configuration list for PBXNativeTarget "EarthDayConventionSurveyUITests" */;
+			buildPhases = (
+				E59724741E9C077000E59FD7 /* Sources */,
+				E59724751E9C077000E59FD7 /* Frameworks */,
+				E59724761E9C077000E59FD7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E597247A1E9C077000E59FD7 /* PBXTargetDependency */,
+			);
+			name = EarthDayConventionSurveyUITests;
+			productName = EarthDayConventionSurveyUITests;
+			productReference = E59724781E9C077000E59FD7 /* EarthDayConventionSurveyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E597244E1E9C077000E59FD7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Max Sterman";
+				TargetAttributes = {
+					E59724551E9C077000E59FD7 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 78D73AY7KY;
+						LastSwiftMigration = 0830;
+					};
+					E597246C1E9C077000E59FD7 = {
+						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0830;
+						TestTargetID = E59724551E9C077000E59FD7;
+					};
+					E59724771E9C077000E59FD7 = {
+						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0830;
+						TestTargetID = E59724551E9C077000E59FD7;
+					};
+				};
+			};
+			buildConfigurationList = E59724511E9C077000E59FD7 /* Build configuration list for PBXProject "EarthDayConventionSurvey" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E597244D1E9C077000E59FD7;
+			productRefGroup = E59724571E9C077000E59FD7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E59724551E9C077000E59FD7 /* EarthDayConventionSurvey */,
+				E597246C1E9C077000E59FD7 /* EarthDayConventionSurveyTests */,
+				E59724771E9C077000E59FD7 /* EarthDayConventionSurveyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E59724541E9C077000E59FD7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E59724671E9C077000E59FD7 /* LaunchScreen.storyboard in Resources */,
+				E59724641E9C077000E59FD7 /* Assets.xcassets in Resources */,
+				E597245F1E9C077000E59FD7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E597246B1E9C077000E59FD7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E59724761E9C077000E59FD7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E59724521E9C077000E59FD7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E59724621E9C077000E59FD7 /* EarthDayConventionSurvey.xcdatamodeld in Sources */,
+				E597248E1E9D325E00E59FD7 /* Viewer+CoreDataProperties.swift in Sources */,
+				E597248B1E9CB85E00E59FD7 /* StartViewController.swift in Sources */,
+				E59724911EA3AE1D00E59FD7 /* ThankYouViewController.swift in Sources */,
+				E597248F1E9D325E00E59FD7 /* Viewer.swift in Sources */,
+				E597245C1E9C077000E59FD7 /* ViewController.swift in Sources */,
+				E59724931EA3B6B900E59FD7 /* DownloadViewController.swift in Sources */,
+				E597245A1E9C077000E59FD7 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E59724691E9C077000E59FD7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E59724721E9C077000E59FD7 /* EarthDayConventionSurveyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E59724741E9C077000E59FD7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E597247D1E9C077000E59FD7 /* EarthDayConventionSurveyUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E597246F1E9C077000E59FD7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E59724551E9C077000E59FD7 /* EarthDayConventionSurvey */;
+			targetProxy = E597246E1E9C077000E59FD7 /* PBXContainerItemProxy */;
+		};
+		E597247A1E9C077000E59FD7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E59724551E9C077000E59FD7 /* EarthDayConventionSurvey */;
+			targetProxy = E59724791E9C077000E59FD7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E597245D1E9C077000E59FD7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E597245E1E9C077000E59FD7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E59724651E9C077000E59FD7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E59724661E9C077000E59FD7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E597247F1E9C077000E59FD7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E59724801E9C077000E59FD7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E59724821E9C077000E59FD7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = EarthDayConventionSurvey/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.bowdoin.msterman.EarthDayConventionSurvey;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		E59724831E9C077000E59FD7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = EarthDayConventionSurvey/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.bowdoin.msterman.EarthDayConventionSurvey;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		E59724851E9C077000E59FD7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = EarthDayConventionSurveyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.bowdoin.msterman.EarthDayConventionSurveyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EarthDayConventionSurvey.app/EarthDayConventionSurvey";
+			};
+			name = Debug;
+		};
+		E59724861E9C077000E59FD7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = EarthDayConventionSurveyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.bowdoin.msterman.EarthDayConventionSurveyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EarthDayConventionSurvey.app/EarthDayConventionSurvey";
+			};
+			name = Release;
+		};
+		E59724881E9C077000E59FD7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = EarthDayConventionSurveyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.bowdoin.msterman.EarthDayConventionSurveyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = EarthDayConventionSurvey;
+			};
+			name = Debug;
+		};
+		E59724891E9C077000E59FD7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = EarthDayConventionSurveyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.bowdoin.msterman.EarthDayConventionSurveyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = EarthDayConventionSurvey;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E59724511E9C077000E59FD7 /* Build configuration list for PBXProject "EarthDayConventionSurvey" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E597247F1E9C077000E59FD7 /* Debug */,
+				E59724801E9C077000E59FD7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E59724811E9C077000E59FD7 /* Build configuration list for PBXNativeTarget "EarthDayConventionSurvey" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E59724821E9C077000E59FD7 /* Debug */,
+				E59724831E9C077000E59FD7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E59724841E9C077000E59FD7 /* Build configuration list for PBXNativeTarget "EarthDayConventionSurveyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E59724851E9C077000E59FD7 /* Debug */,
+				E59724861E9C077000E59FD7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E59724871E9C077000E59FD7 /* Build configuration list for PBXNativeTarget "EarthDayConventionSurveyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E59724881E9C077000E59FD7 /* Debug */,
+				E59724891E9C077000E59FD7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		E59724601E9C077000E59FD7 /* EarthDayConventionSurvey.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				E59724611E9C077000E59FD7 /* EarthDayConventionSurvey.xcdatamodel */,
+			);
+			currentVersion = E59724611E9C077000E59FD7 /* EarthDayConventionSurvey.xcdatamodel */;
+			path = EarthDayConventionSurvey.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = E597244E1E9C077000E59FD7 /* Project object */;
+}
